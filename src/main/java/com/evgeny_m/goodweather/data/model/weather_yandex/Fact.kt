@@ -1,0 +1,31 @@
+package com.evgeny_m.goodweather.data.model.weather_yandex
+
+data class Fact(
+    val accum_prec: AccumPrec,
+    val cloudness: Double,
+    val condition: String,
+    val daytime: String,
+    val feels_like: Double,
+    val humidity: Double,
+    val icon: String,
+    val is_thunder: Boolean,
+    val obs_time: Int,
+    val phenom_condition: String,
+    val phenom_icon: String,
+    val polar: Boolean,
+    val prec_prob: Double,
+    val prec_strength: Double,
+    val prec_type: Double,
+    val pressure_mm: Double,
+    val pressure_pa: Double,
+    val season: String,
+    val soil_moisture: Double,
+    val soil_temp: Double,
+    val source: String,
+    val temp: Double,
+    val uptime: Double,
+    val uv_index: Double,
+    val wind_dir: String,
+    val wind_gust: Double,
+    val wind_speed: Double
+)
